@@ -131,7 +131,7 @@ app.get('/google_search' , function (req, res)
    res.setHeader("Content-Type","text/plain");
    res.setHeader("Access-Control-Allow-Origin","*");
    var parameters = url.parse(req.url, true).query;
-   var google_url = 'https://www.googleapis.com/customsearch/v1?q='+encodeURI(parameters.googlesearching)+'&cx=010618545303057637593:vvou7p-g_us&imgSize=huge&imgType=news&num=8&searchType=image&key=[APP-KEY]';
+   var google_url = 'https://www.googleapis.com/customsearch/v1?q='+encodeURI(parameters.googlesearching)+'&cx=[cx-value]&imgSize=huge&imgType=news&num=8&searchType=image&key=[APP-KEY]';
    console.log(google_url);
    https.get(google_url,function(requ,resu)
    {
