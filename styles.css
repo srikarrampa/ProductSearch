@@ -1,0 +1,221 @@
+#productsearch{
+	color: white;
+	font-size: 35px;
+	text-align: center;
+	font-family: 
+}
+.form-group
+{
+	color: white;
+}
+.condition_checkboxes
+{
+	text-align: left;
+}
+.shipping_checkboxes
+{
+	text-align: left;
+}
+.loc
+{
+	color: white;
+	text-align: left;
+}
+.text-box
+{
+	text-align: left;
+}
+
+.material-icons
+{
+	top:-1px;
+	vertical-align: middle;
+}
+td
+{
+	color: white;
+}
+th
+{
+	color: white;
+}
+#tootips_name
+{
+	text-overflow: ellipsis;
+	display: block;
+	width: 300px;
+	overflow: hidden;
+	white-space: nowrap;
+}
+#tootipsw_name
+{
+	text-overflow: ellipsis;
+	display: block;
+	width: 300px;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.placement
+{
+	width:auto;
+  	height:auto;
+  	top: 0;
+  	left: 0;
+  	transition: all linear 0.5s;
+  	position: relative;
+}
+#Each_Product.ng-hide
+{
+	height:0px;
+ 	width:auto;
+ 	top:0;
+ 	left:-1780px;
+ 	position: relative;
+ 	transition: all linear 0s;
+}
+
+.results_det.ng-hide
+{
+	height:0px;
+	width:auto;
+	top:0px;
+	left:1780px;
+	position: relative;
+	transition: all linear 0s;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current
+{
+	background: linear-gradient(to bottom, #080808 0%, #0a0a0a 100%) !important;
+	color: white !important;
+}
+
+
+.borderless td {
+    border: none !important;
+}
+.card-img
+{
+	border:7px solid black !important;
+	margin: 5px !important;
+	padding: 0px !important;
+}
+
+tr.highlighting
+{
+	background-color: #d5d9de !important;
+}
+tr.highlig
+{
+	background-color: #d5d9de !important;
+}
+
+.nav-tabs > .active
+{
+	background-color: black !important;
+	color: white !important;
+	
+}
+table.dataTable .odd
+{
+	background-color: #343a40;
+	color: white;
+	border-color: grey;
+}
+table.dataTable .even
+{
+	background-color: #292d31;
+	color: white;
+	border-color: grey;
+}
+
+table.dataTable thead
+{
+	background-color: #292d31;
+	color: white;
+}
+
+#datatables_my_paginate
+{
+	float: none;
+	text-align: center;
+	background-color: white;
+}
+@media(max-width: 667px)
+{
+	.table_responsive .each_row
+	{
+		margin-bottom: 15px;
+		margin-top:5px;
+		background-color: black;
+		text-align: left;
+	}
+	.table_responsive .each_col
+	{
+		margin-top: 10px;
+		text-align: left;
+	}
+
+	table.dataTable .odd
+	{
+		background-color: #343a40 !important;
+		color: white;
+		border:none;
+	}
+	table.dataTable .even
+	{
+		background-color: #292d31 !important;
+		color: white ;
+		border:none !important;
+	}
+	.short-text { display: inline-block !important; }
+    .full-text { display: none !important; }
+    a.nav-item.nav-link
+    {
+    	padding: 1px !important;
+    	color:black;
+    }
+    .padding_small
+    {
+    	padding:0px !important;
+    }
+    .sorti
+    {
+    	border:1px solid grey;
+    }
+    .revi
+    {
+    	border:1px solid grey;
+    }
+}
+
+@media(min-width: 1200px)
+{
+	.table_responsive .each_row
+	{
+		margin-bottom: 15px;
+		margin-top:5px;
+		background-color: black;
+		text-align: left;
+	}
+	.table_responsive .each_col
+	{
+		margin-top: 10px;
+		text-align: left;
+		margin-left: 20px;
+		margin-bottom: 10px;
+
+	}
+	
+    .short-text { display: none !important; }
+	.full-text { display: inline-block !important; }
+	a.nav-item.nav-link
+    {
+    	
+    	color:black;
+    }
+}
+
+
+
+
+
