@@ -548,7 +548,7 @@ $(document).ready(function()
             {
 
                 $.getScript("http://connect.facebook.net/en_US/all.js#xfbml=1", function () {
-                    FB.init({ appId: '480770385793908', status: true, cookie: true, xfbml: true });
+                    FB.init({ appId: [app-id], status: true, cookie: true, xfbml: true });
                 });
 
             });
